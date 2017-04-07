@@ -56,8 +56,10 @@ The ``File`` class
         was originally opened with; ``None`` means to reopen with the original
         mode.
 
-        Returns ``self``, so that it can be used similar to Python's
-        built-in :func:`python:open()` with the ``with`` statement.
+        .. versionchanged:: 2.0
+
+            Returns ``self``, so that it can be used similar to Python's
+            built-in :func:`python:open()` with the ``with`` statement.
 
     .. method:: read(num_bytes=None)
 
